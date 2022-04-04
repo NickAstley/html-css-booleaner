@@ -5,26 +5,32 @@
 }
 
 header {
-    padding: 50px 0 10px 8px;
+    padding-top: 50px;
     background-color: dodgerblue;
     background-image: url("../img/pattern.png");
-    background-size: contain;
+    /* Usare background-size: contain; o background-size: cover; non porta alla stessa soluzione dell'immagine.*/
 }
 
 header img {
+    margin-left: 8px;
     width: 200px;
 }
 
 main {
-    margin: 0 8px;
+    margin: 10px 8px;
 }
 
-p {
-    margin: 20px 0;
+span {
+    color: gray;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
 }
 
 ul {
-    margin: 1em;
+    margin: 30px 20px;
 }
 
 table {
@@ -39,39 +45,54 @@ thead {
     text-align: left;
 }
 
-.article-info {
+.article-info, p {
     margin: 20px 0;
-}
-
-.article-info span {
-    color: gray;
 }
 
 .article-title {
     font-size: 40px;
 }
 
-.article-author {
+.bold-text {
     font-weight: bold;
-    font-size: 20px;
 }
 
-.article-author a{
-    text-decoration: none;
+.font-size-small{
+    font-size: 14px;
 }
 
 .deep-sky-blue {
     color: deepskyblue;
 }
 
-.quarter-column{
+.light-blue {
+    background-color: lightblue;
+}
+
+.quarter-column {
     width: 25%;
 }
 
-.half-column{
+.half-column {
     width: 50%;
 }
 
-.light-blue{
-    background-color: lightblue;
+.background-image {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    margin-top: 20px;
+    /* Si potrebbe usare background-size: cover; */
+}
+
+.monitor {
+    background-image: url("../img/monitor.jpg");
+}
+
+.graph {
+    background-image: url("../img/graph.jpg");
 }
