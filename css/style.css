@@ -16,15 +16,27 @@ header img {
 }
 
 main {
-    margin-left: 8px;
+    margin: 0 8px;
 }
 
 p {
     margin: 20px 0;
 }
 
-ul{
+ul {
     margin: 1em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+thead {
+    background-color: deepskyblue;
+    color: white;
+    text-align: left;
 }
 
 .article-info {
@@ -48,6 +60,18 @@ ul{
     text-decoration: none;
 }
 
-.light-blue {
+.deep-sky-blue {
     color: deepskyblue;
+}
+
+.quarter-column{
+    width: 25%;
+}
+
+.half-column{
+    width: 50%;
+}
+
+.light-blue{
+    background-color: lightblue;
 }
